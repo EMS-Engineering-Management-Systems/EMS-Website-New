@@ -1,0 +1,2357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS - Smart Engineering. Smart Cities. Smart Future.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <img src="EMS.png" alt="EMS" class="preloader-logo">
+            <div class="preloader-tagline">Smart Engineering. Smart Cities. Smart Future.</div>
+            <div class="preloader-bar-wrap">
+                <div class="preloader-bar" id="preloaderBar"></div>
+            </div>
+            <div class="preloader-pct" id="preloaderPct">0%</div>
+        </div>
+    </div>
+
+    <!-- Sticky CTA Bar -->
+    <div id="stickyCTA" class="sticky-cta hidden">
+        <div class="sticky-cta-text">
+            <i class="fas fa-bolt"></i>
+            <span>Ready to transform your project? Let's talk.</span>
+        </div>
+        <div class="sticky-cta-actions">
+            <a href="#contact" class="sticky-cta-btn">Request a Quote</a>
+            <button class="sticky-cta-close" id="stickyClose" aria-label="Close"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" title="Back to top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <img src="EMS.png" alt="EMS Logo" class="logo-image">
+                </div>
+                <div class="nav-right-group">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#zeta">ZETA Platform</a></li>
+                        <li><a href="#products" class="nav-products-link">
+                            <i class="fas fa-bolt"></i> Products
+                        </a></li>
+                        <li><a href="#panel-anatomy">Panel Guide</a></li>
+                        <li><a href="#case-studies">Case Studies</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <button id="darkModeToggle" class="dark-mode-toggle" title="Toggle light/dark mode" aria-label="Toggle theme">
+                            <i class="fas fa-sun"></i>
+                        </button>
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="animated-bg">
+                <div class="circuit-line"></div>
+                <div class="circuit-line"></div>
+                <div class="circuit-dot"></div>
+                <div class="circuit-dot"></div>
+                <div class="circuit-dot"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="glitch" data-text="Smart Engineering. Smart Cities. Smart Future.">
+                        Smart Engineering. Smart Cities. Smart Future.
+                    </h1>
+                    <p class="hero-subtitle">Leading MEP Contracting & Automation Solutions Since 2012</p>
+                    <div class="hero-trust" aria-label="Certifications and partners">
+                        <p class="hero-trust-line">
+                            <span class="hero-trust-item"><i class="fas fa-certificate" aria-hidden="true"></i> Siemens Certified Partner</span>
+                            <span class="hero-trust-sep" aria-hidden="true">·</span>
+                            <span class="hero-trust-item"><i class="fas fa-shield-alt" aria-hidden="true"></i> ISO 9001:2015</span>
+                            <span class="hero-trust-sep" aria-hidden="true">·</span>
+                            <span class="hero-trust-item"><i class="fas fa-globe" aria-hidden="true"></i> UAE · Egypt · GCC</span>
+                        </p>
+                        <div class="hero-trust-logos">
+                            <img src="SIEMENS.PNG" alt="Siemens certified partner" class="hero-trust-logo-img" width="120" height="36" loading="lazy" />
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#zeta" class="btn btn-primary glow-btn">
+                            <span>Explore EMS Platform</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#services" class="btn btn-secondary">
+                            <span>Our Services</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hologram-container">
+                        <div class="hologram rotating">
+                            <div class="hologram-layer"></div>
+                            <div class="hologram-layer"></div>
+                            <div class="hologram-layer"></div>
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="glow-orb"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Stats -->
+        <div class="floating-stats">
+            <div class="stat-card">
+                <div class="stat-number">2012</div>
+                <div class="stat-label">Founded</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Countries</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About EMS</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-timeline">
+                    <div class="timeline-item active" data-year="2012">
+                        <div class="timeline-pin" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="timeline-content">
+                            <h3>Founded in UAE</h3>
+                            <p>Established as a premier MEP contracting company in the United Arab Emirates</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="2016">
+                        <div class="timeline-pin" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="timeline-content">
+                            <h3>Expansion to Egypt</h3>
+                            <p>Opened operations in Egypt to serve broader Middle East market</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="2020">
+                        <div class="timeline-pin" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="timeline-content">
+                            <h3>Siemens Certified Partner</h3>
+                            <p>Achieved official Siemens partnership for BMS and automation systems</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mission-vision">
+                    <button type="button" class="mission-card card-glow mv-card" data-mv-open="mission" aria-haspopup="dialog">
+                        <div class="card-icon">
+                            <i class="fas fa-crosshairs"></i>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>Deliver economical, fast, high-quality solutions while analyzing customer needs and ensuring satisfaction. Provide end-to-end MEP systems following latest global technologies.</p>
+                        <span class="mv-card-hint"><i class="fas fa-expand-alt"></i> Click to read more</span>
+                    </button>
+                    <button type="button" class="vision-card card-glow mv-card" data-mv-open="vision" aria-haspopup="dialog">
+                        <div class="card-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Our Vision</h3>
+                        <p>To be a unique and independent MEP provider offering modern, highly professional services covering full MEP requirements while specializing in the latest technologies.</p>
+                        <span class="mv-card-hint"><i class="fas fa-expand-alt"></i> Click to read more</span>
+                    </button>
+                </div>
+
+                <div class="certifications">
+                    <h3>Certifications & Partners</h3>
+                    <div class="cert-grid">
+                        <div class="cert-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Siemens Certified</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>ISO 9001:2015</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Energy Efficient</span>
+                        </div>
+                        <div class="cert-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Smart Building Expert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mv-modal-overlay" class="mv-modal-overlay" aria-hidden="true">
+            <div class="mv-modal" role="dialog" aria-modal="true" aria-labelledby="mv-modal-title">
+                <button type="button" class="mv-modal-close" aria-label="Close dialog">&times;</button>
+                <img id="mv-modal-img" class="mv-modal-img" src="" alt="" width="800" height="450" loading="lazy" />
+                <h3 id="mv-modal-title" class="mv-modal-title"></h3>
+                <div id="mv-modal-body" class="mv-modal-body"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="header-line"></div>
+                <p>Comprehensive MEP & Automation Solutions</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1: Project Management -->
+                <div class="service-card card-hover">
+                    <div class="service-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Project Management</h3>
+                    <div class="service-features">
+                        <ul>
+                            <li><span class="dot"></span>Primavera Planning</li>
+                            <li><span class="dot"></span>Costing & Budgeting</li>
+                            <li><span class="dot"></span>Risk Management</li>
+                            <li><span class="dot"></span>Quality Assurance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2: Mechanical Systems -->
+                <div class="service-card card-hover">
+                    <div class="service-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Mechanical Systems</h3>
+                    <div class="service-features">
+                        <ul>
+                            <li><span class="dot"></span>HVAC Systems</li>
+                            <li><span class="dot"></span>Chilled Water Solutions</li>
+                            <li><span class="dot"></span>Energy Optimization</li>
+                            <li><span class="dot"></span>System Commissioning</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3: Electrical Systems -->
+                <div class="service-card card-hover">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Electrical Systems</h3>
+                    <div class="service-features">
+                        <ul>
+                            <li><span class="dot"></span>LV/MV Distribution</li>
+                            <li><span class="dot"></span>Switchgears & MCCs</li>
+                            <li><span class="dot"></span>Power Panels</li>
+                            <li><span class="dot"></span>Lighting Systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 4: Light Current Systems -->
+                <div class="service-card card-hover">
+                    <div class="service-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>Light Current Systems</h3>
+                    <div class="service-features">
+                        <ul>
+                            <li><span class="dot"></span>Fire Alarm Systems</li>
+                            <li><span class="dot"></span>CCTV & Monitoring</li>
+                            <li><span class="dot"></span>Access Control</li>
+                            <li><span class="dot"></span>Network Solutions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 5: Control Systems -->
+                <div class="service-card card-hover">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Control Systems</h3>
+                    <div class="service-features">
+                        <ul>
+                            <li><span class="dot"></span>PLC Automation</li>
+                            <li><span class="dot"></span>SCADA Systems</li>
+                            <li><span class="dot"></span>Process Control</li>
+                            <li><span class="dot"></span>Industrial Automation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 6: BMS -->
+                <div class="service-card card-hover">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Building Management Systems</h3>
+                    <div class="service-features">
+                        <ul>
+                            <li><span class="dot"></span>Integrated Automation</li>
+                            <li><span class="dot"></span>Energy Efficiency</li>
+                            <li><span class="dot"></span>Smart Monitoring</li>
+                            <li><span class="dot"></span>Dynamic Dashboards</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 7: Fire Fighting -->
+                <div class="service-card card-hover">
+                    <div class="service-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Fire Fighting Systems</h3>
+                    <div class="service-features">
+                        <ul>
+                            <li><span class="dot"></span>Fire Pumps & Controllers</li>
+                            <li><span class="dot"></span>Hydrant Systems</li>
+                            <li><span class="dot"></span>Sprinkler Systems</li>
+                            <li><span class="dot"></span>High Velocity Spray</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 8: Solar Energy -->
+                <div class="service-card card-hover">
+                    <div class="service-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h3>Solar Energy Systems</h3>
+                    <div class="service-features">
+                        <ul>
+                            <li><span class="dot"></span>PV Systems</li>
+                            <li><span class="dot"></span>Solar Street Lights</li>
+                            <li><span class="dot"></span>Renewable Energy</li>
+                            <li><span class="dot"></span>Grid Integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ZETA Platform Section -->
+    <section id="zeta" class="zeta-platform">
+        <div class="container">
+            <div class="section-header">
+                <h2>ZETA Platform</h2>
+                <div class="header-line"></div>
+                <p>AI-Powered Smart Automation & IoT Integration</p>
+            </div>
+
+            <div class="zeta-showcase">
+                <div class="zeta-visual">
+                    <div class="platform-3d">
+                        <div class="cube rotating">
+                            <div class="cube-face"></div>
+                            <div class="cube-face"></div>
+                            <div class="cube-face"></div>
+                            <div class="cube-face"></div>
+                            <div class="cube-face"></div>
+                            <div class="cube-face"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="zeta-features">
+                    <h3>Smart Automation Platform</h3>
+                    <p class="zeta-subtitle">Integrating AI, IoT, and Advanced Analytics</p>
+
+                    <div class="features-list">
+                        <div class="feature-item" data-feature="ai">
+                            <div class="feature-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Artificial Intelligence</h4>
+                                <p>Machine learning & predictive analytics for autonomous decision-making</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item" data-feature="iot">
+                            <div class="feature-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>IoT Integration</h4>
+                                <p>Real-time data collection and processing from thousands of sensors</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item" data-feature="cloud">
+                            <div class="feature-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Cloud Infrastructure</h4>
+                                <p>Private and public cloud deployment options with secure connectivity</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item" data-feature="automation">
+                            <div class="feature-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Automation & Robots</h4>
+                                <p>Robotic process automation and intelligent system orchestration</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Platform Benefits -->
+            <div class="benefits-section">
+                <h3>Platform Benefits</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-card benefit-1">
+                        <div class="benefit-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h4>Energy Efficiency</h4>
+                        <p>Optimize energy consumption across all systems</p>
+                    </div>
+                    <div class="benefit-card benefit-2">
+                        <div class="benefit-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h4>Cost Savings</h4>
+                        <p>Reduce operational expenses up to 40%</p>
+                    </div>
+                    <div class="benefit-card benefit-3">
+                        <div class="benefit-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Sustainability</h4>
+                        <p>Environmentally responsible automation</p>
+                    </div>
+                    <div class="benefit-card benefit-4">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Performance</h4>
+                        <p>Real-time monitoring and optimization</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sectors -->
+            <div class="sectors-section">
+                <h3>Industry Sectors</h3>
+                <div class="sectors-grid">
+                    <div class="sector-tile">
+                        <i class="fas fa-hospital"></i>
+                        <span>Hospitals</span>
+                    </div>
+                    <div class="sector-tile">
+                        <i class="fas fa-industry"></i>
+                        <span>Industrial</span>
+                    </div>
+                    <div class="sector-tile">
+                        <i class="fas fa-hotel"></i>
+                        <span>Hotels</span>
+                    </div>
+                    <div class="sector-tile">
+                        <i class="fas fa-school"></i>
+                        <span>Schools</span>
+                    </div>
+                    <div class="sector-tile">
+                        <i class="fas fa-droplet"></i>
+                        <span>Water Systems</span>
+                    </div>
+                    <div class="sector-tile">
+                        <i class="fas fa-oil-can"></i>
+                        <span>Oil & Gas</span>
+                    </div>
+                    <div class="sector-tile">
+                        <i class="fas fa-home"></i>
+                        <span>Residential</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Partners</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="partners-grid">
+                <div class="partner-logo">
+                    <div class="logo-card">
+                        <img src="SIEMENS.PNG" alt="Siemens Logo" class="partner-img">
+                        
+                    </div>
+                </div>
+                <div class="partner-logo">
+                    <div class="logo-card">
+                       <img src="cisco.PNG" alt="Cisco Logo" class="partner-img">
+                    </div>
+                </div>
+                <div class="partner-logo">
+                    <div class="logo-card">
+                       <img src="awsslogo.PNG" alt="AWS Logo" class="partner-img">
+                    </div>
+                </div>
+                <div class="partner-logo">
+                    <div class="logo-card">
+                        <img src="oraclelogo.PNG" alt="Oracle Logo" class="partner-img">
+                    </div>
+                </div>
+                <div class="partner-logo">
+                    <div class="logo-card">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="partner-logo">
+                    <div class="logo-card">
+                        <i class="fas fa-code"></i>
+                        <span>VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Strip -->
+    <section class="certs-strip-section">
+        <div class="certs-strip-inner">
+            <div class="certs-track" id="certsTrack">
+                <div class="cert-pill"><i class="fas fa-certificate"></i> Siemens Certified Partner</div>
+                <div class="cert-pill"><i class="fas fa-shield-alt"></i> ISO 9001:2015 Quality</div>
+                <div class="cert-pill"><i class="fas fa-leaf"></i> ISO 14001 Environmental</div>
+                <div class="cert-pill"><i class="fas fa-bolt"></i> IEC 61439 Switchgear</div>
+                <div class="cert-pill"><i class="fas fa-fire-extinguisher"></i> NFPA 72 Fire Systems</div>
+                <div class="cert-pill"><i class="fas fa-solar-panel"></i> IEC 62446 Solar PV</div>
+                <div class="cert-pill"><i class="fas fa-building"></i> ASHRAE 90.1 Energy</div>
+                <div class="cert-pill"><i class="fas fa-microchip"></i> Schneider Electric Partner</div>
+                <div class="cert-pill"><i class="fas fa-network-wired"></i> Cisco Network Specialist</div>
+                <div class="cert-pill"><i class="fas fa-cloud"></i> AWS Cloud Certified</div>
+                <!-- Duplicate for seamless loop -->
+                <div class="cert-pill"><i class="fas fa-certificate"></i> Siemens Certified Partner</div>
+                <div class="cert-pill"><i class="fas fa-shield-alt"></i> ISO 9001:2015 Quality</div>
+                <div class="cert-pill"><i class="fas fa-leaf"></i> ISO 14001 Environmental</div>
+                <div class="cert-pill"><i class="fas fa-bolt"></i> IEC 61439 Switchgear</div>
+                <div class="cert-pill"><i class="fas fa-fire-extinguisher"></i> NFPA 72 Fire Systems</div>
+                <div class="cert-pill"><i class="fas fa-solar-panel"></i> IEC 62446 Solar PV</div>
+                <div class="cert-pill"><i class="fas fa-building"></i> ASHRAE 90.1 Energy</div>
+                <div class="cert-pill"><i class="fas fa-microchip"></i> Schneider Electric Partner</div>
+                <div class="cert-pill"><i class="fas fa-network-wired"></i> Cisco Network Specialist</div>
+                <div class="cert-pill"><i class="fas fa-cloud"></i> AWS Cloud Certified</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2>Case Studies</h2>
+                <div class="header-line"></div>
+                <p>Successful Projects & Implementations</p>
+            </div>
+
+            <div class="case-studies-grid">
+                <!-- ZIA Building Complex -->
+                <a class="case-card case-card-zia case-video-card" href="https://www.youtube.com/watch?v=rVN8JoOcQ7c" target="_blank" rel="noopener noreferrer" data-youtube-id="rVN8JoOcQ7c">
+                    <div class="case-image case-video-frame">
+                        <img
+                            class="case-video-thumb"
+                            src="https://img.youtube.com/vi/rVN8JoOcQ7c/maxresdefault.jpg"
+                            alt="ZIA Building Complex — smart building dashboard"
+                            loading="lazy"
+                            onerror="this.onerror=null;this.src='https://img.youtube.com/vi/rVN8JoOcQ7c/hqdefault.jpg';"
+                        />
+                        <div class="case-video-embed" aria-hidden="true"></div>
+                        <span class="case-video-play" aria-hidden="true"><i class="fas fa-play"></i></span>
+                    </div>
+                    <div class="case-content">
+                        <h3>ZIA Building Complex</h3>
+                        <p class="location">New Administrative Capital, Egypt</p>
+                        <p class="description">ZiA smart building dashboard — real-time IoT platform with EMS × Siemens integration for live monitoring and automation across the complex.</p>
+                        <div class="case-stats">
+                            <span>ZiA Platform</span>
+                            <span>EMS × Siemens</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Case Study 1 -->
+                <div class="case-card case-card-1">
+                    <div class="case-image">
+                        <div class="case-icon">
+                            <i class="fas fa-droplet"></i>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Water Treatment Plant Automation</h3>
+                        <p class="location">Cairo, Egypt</p>
+                        <p class="description">Complete IoT integration with AI-powered predictive maintenance, reducing downtime by 60%</p>
+                        <div class="case-stats">
+                            <span>IoT Sensors: 200+</span>
+                            <span>Efficiency Gain: 35%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="case-card case-card-2">
+                    <div class="case-image">
+                        <div class="case-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Smart Hospital BMS</h3>
+                        <p class="location">Dubai, UAE</p>
+                        <p class="description">Integrated building management for 500-bed hospital with real-time monitoring dashboards</p>
+                        <div class="case-stats">
+                            <span>Monitored Systems: 5000+</span>
+                            <span>Energy Saved: 40%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 3 -->
+                <div class="case-card case-card-3">
+                    <div class="case-image">
+                        <div class="case-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Industrial SCADA System</h3>
+                        <p class="location">Giza, Egypt</p>
+                        <p class="description">Advanced PLC & SCADA implementation for manufacturing facility with process optimization</p>
+                        <div class="case-stats">
+                            <span>Production Lines: 12</span>
+                            <span>Uptime: 99.9%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 4 -->
+                <div class="case-card case-card-4">
+                    <div class="case-image">
+                        <div class="case-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Smart Shopping Mall</h3>
+                        <p class="location">Sharjah, UAE</p>
+                        <p class="description">Comprehensive MEP solution with AI-driven energy management and visitor analytics</p>
+                        <div class="case-stats">
+                            <span>Total Area: 500,000 sqm</span>
+                            <span>Cost Reduction: 38%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Team</h2>
+                <div class="header-line"></div>
+                <p>The engineers and leaders driving EMS forward</p>
+            </div>
+            <div class="team-grid">
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <div class="avatar-placeholder"><i class="fas fa-user-tie"></i></div>
+                        <div class="team-social-overlay">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:info@ems-me.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Ahmed Elzayat</h3>
+                        <div class="team-role">CEO &amp; Founder</div>
+                        <p>20+ years in MEP contracting across the Gulf and North Africa. Former senior project engineer at Siemens UAE.</p>
+                        <div class="team-tags">
+                            <span>MEP Strategy</span><span>BMS</span><span>PMP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <div class="avatar-placeholder"><i class="fas fa-user-tie"></i></div>
+                        <div class="team-social-overlay">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:info@ems-me.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Suzane Gamal</h3>
+                        <div class="team-role">HR Manager</div>
+                        <p>Oversees talent acquisition, employee development, and organizational culture across EMS offices in Egypt and UAE.</p>
+                        <div class="team-tags">
+                            <span>HR Strategy</span><span>Recruitment</span><span>People Ops</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <div class="avatar-placeholder"><i class="fas fa-laptop-code"></i></div>
+                        <div class="team-social-overlay">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:info@ems-me.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Mallak Hesham</h3>
+                        <div class="team-role">Software Engineer</div>
+                        <p>Develops and maintains EMS's digital platforms including the ZETA system, web applications, and internal automation tools.</p>
+                        <div class="team-tags">
+                            <span>Web Dev</span><span>ZETA</span><span>Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <div class="avatar-placeholder"><i class="fas fa-user-astronaut"></i></div>
+                        <div class="team-social-overlay">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:info@ems-me.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Menna</h3>
+                        <div class="team-role">BMS &amp; Automation Lead</div>
+                        <p>Heads the ZETA Platform development team. Expert in SCADA, PLC programming, and IoT integration for smart buildings.</p>
+                        <div class="team-tags">
+                            <span>SCADA</span><span>IoT</span><span>ZETA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <div class="avatar-placeholder"><i class="fas fa-paint-brush"></i></div>
+                        <div class="team-social-overlay">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:info@ems-me.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Fatma El Zahraa</h3>
+                        <div class="team-role">Graphic Designer</div>
+                        <p>Leads all visual branding, UI design, and marketing assets for EMS — ensuring a consistent and professional identity across every touchpoint.</p>
+                        <div class="team-tags">
+                            <span>Branding</span><span>UI Design</span><span>Adobe CC</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Electrical Panels Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Electrical Panels</h2>
+                <div class="header-line"></div>
+                <p>Premium distribution boards, switchgear & panel solutions for every application</p>
+            </div>
+
+            <!-- Search & Sort Bar -->
+            <div class="products-toolbar">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="productSearch" placeholder="Search electrical panels..." autocomplete="off">
+                </div>
+                <div class="toolbar-right">
+                    <span class="results-count"><span id="visibleCount">16</span> products found</span>
+                    <div class="sort-select">
+                        <select id="sortSelect">
+                            <option value="default">Sort by: Featured</option>
+                            <option value="name-asc">Name: A → Z</option>
+                            <option value="name-desc">Name: Z → A</option>
+                            <option value="price-asc">Price: Low → High</option>
+                            <option value="price-desc">Price: High → Low</option>
+                            <option value="rating">Best Rated</option>
+                        </select>
+                    </div>
+                    <div class="view-toggle">
+                        <button class="view-btn active" data-view="grid" title="Grid View"><i class="fas fa-th"></i></button>
+                        <button class="view-btn" data-view="list" title="List View"><i class="fas fa-list"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-layout">
+                <!-- Filter Sidebar -->
+                <aside class="products-sidebar">
+                    <div class="filter-header">
+                        <h3><i class="fas fa-sliders-h"></i> Filter By</h3>
+                        <button id="clearFilters" class="clear-filters-btn">Clear All</button>
+                    </div>
+
+                    <!-- Category Filter -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Category</h4>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="mdb" name="category"> Main Distribution Boards
+                                <span class="filter-count">4</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="sdb" name="category"> Sub Distribution Boards
+                                <span class="filter-count">4</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="mcc" name="category"> Motor Control Centers
+                                <span class="filter-count">3</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="lv-panel" name="category"> LV Switchgear Panels
+                                <span class="filter-count">3</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="mcb-panel" name="category"> MCB Distribution
+                                <span class="filter-count">2</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Brand Filter -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Brand</h4>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="schneider" name="brand"> Schneider Electric
+                                <span class="filter-count">7</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="siemens" name="brand"> Siemens
+                                <span class="filter-count">5</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="abb" name="brand"> ABB
+                                <span class="filter-count">4</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Current Rating Filter -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Current Rating</h4>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="up-to-63A" name="rating"> Up to 63A
+                                <span class="filter-count">5</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="100-250A" name="rating"> 100A – 250A
+                                <span class="filter-count">6</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="400-630A" name="rating"> 400A – 630A
+                                <span class="filter-count">3</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="above-800A" name="rating"> Above 800A
+                                <span class="filter-count">2</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Voltage Filter -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Voltage</h4>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="lv-400v" name="voltage"> LV — 400V AC
+                                <span class="filter-count">12</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="mv-11kv" name="voltage"> MV — 11kV
+                                <span class="filter-count">4</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Application Filter -->
+                    <div class="filter-group">
+                        <h4 class="filter-title">Application</h4>
+                        <div class="filter-options">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="industrial" name="application"> Industrial
+                                <span class="filter-count">6</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="commercial" name="application"> Commercial
+                                <span class="filter-count">5</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="residential" name="application"> Residential
+                                <span class="filter-count">3</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" value="utility" name="application"> Utility & Infrastructure
+                                <span class="filter-count">2</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- CTA in sidebar -->
+                    <div class="sidebar-cta">
+                        <i class="fas fa-headset"></i>
+                        <p>Need a custom panel solution?</p>
+                        <a href="#contact" class="btn btn-primary" style="font-size:0.8rem; padding:0.5rem 1rem;">Request a Quote</a>
+                    </div>
+                </aside>
+
+                <!-- Products Grid -->
+                <div class="products-content">
+                    <div class="products-grid" id="productsGrid">
+
+                        <!-- Product 1 -->
+                        <div class="product-card" data-category="mdb" data-brand="schneider" data-rating="100-250A" data-voltage="lv-400v" data-application="commercial industrial" data-price="2400" data-name="Schneider Acti9 Disbo MDB 18-Way">
+                            <div class="product-badge badge-new">New</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-bolt"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="1"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Schneider Electric</div>
+                                <h3 class="product-name">Acti9 Disbo MDB — 18 Way</h3>
+                                <p class="product-desc">Flush-mounted main distribution board with 125A isolator, 18 outgoing ways, IP30 rated metal enclosure.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">125A</span>
+                                    <span class="spec-tag">400V AC</span>
+                                    <span class="spec-tag">IP30</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(48 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price-value">EGP 4,857</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="Acti9 Disbo MDB — 18 Way">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 2 -->
+                        <div class="product-card" data-category="mdb" data-brand="schneider" data-rating="100-250A" data-voltage="lv-400v" data-application="commercial industrial" data-price="7863" data-name="Schneider Acti9 Disbo MDB 36-Way">
+                            <div class="product-badge badge-sale">-34%</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-server"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="2"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Schneider Electric</div>
+                                <h3 class="product-name">Acti9 Disbo MDB — 36 Way</h3>
+                                <p class="product-desc">Flush-mounted main distribution board, 36 outgoing ways, 125A general busbar, metal enclosure for commercial buildings.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">125A</span>
+                                    <span class="spec-tag">400V AC</span>
+                                    <span class="spec-tag">36 Ways</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span>(31 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-old">EGP 12,004</span>
+                                        <span class="price-value">EGP 7,863</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="Acti9 Disbo MDB — 36 Way">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 3 -->
+                        <div class="product-card" data-category="mdb" data-brand="schneider" data-rating="100-250A" data-voltage="lv-400v" data-application="industrial" data-price="10110" data-name="Schneider Acti9 Disbo MDB 48-Way">
+                            <div class="product-badge badge-sale">-35%</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-database"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="3"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Schneider Electric</div>
+                                <h3 class="product-name">Acti9 Disbo MDB — 48 Way</h3>
+                                <p class="product-desc">Industrial main distribution board with 48 outgoing ways, 125A general busbar, IP30 metal enclosure.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">125A</span>
+                                    <span class="spec-tag">400V AC</span>
+                                    <span class="spec-tag">48 Ways</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span>(27 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-old">EGP 15,436</span>
+                                        <span class="price-value">EGP 10,110</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="Acti9 Disbo MDB — 48 Way">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 4 -->
+                        <div class="product-card" data-category="sdb" data-brand="schneider" data-rating="up-to-63A" data-voltage="lv-400v" data-application="residential commercial" data-price="6049" data-name="Schneider Acti9 Disbo SDB 18-Way Resi9">
+                            <div class="product-badge badge-exclusive">Exclusive</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-th-large"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="4"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Schneider Electric</div>
+                                <h3 class="product-name">Acti9 Disbo SDB — 18 Way + 19 Resi9</h3>
+                                <p class="product-desc">Complete sub-distribution board package with 18-way flush panel + 19 Resi9 MCBs installed, ideal for apartments.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">63A</span>
+                                    <span class="spec-tag">230V AC</span>
+                                    <span class="spec-tag">Package</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(19 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-old">EGP 14,000</span>
+                                        <span class="price-value">EGP 6,049</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="Acti9 Disbo SDB — 18 Way + 19 Resi9">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 5 -->
+                        <div class="product-card" data-category="sdb" data-brand="schneider" data-rating="100-250A" data-voltage="lv-400v" data-application="commercial" data-price="10999" data-name="Schneider Disbo 24-Way 3Ph SDB Package">
+                            <div class="product-badge badge-sale">-35%</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-layer-group"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="5"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Schneider Electric</div>
+                                <h3 class="product-name">Disbo 24-Way 3Ph SDB Package</h3>
+                                <p class="product-desc">24-way sub-distribution board with 3-phase 6kA MCBs and 3-phase main isolator. Ready-to-install commercial package.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">3-Phase</span>
+                                    <span class="spec-tag">400V AC</span>
+                                    <span class="spec-tag">6kA</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span>(14 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-old">EGP 16,799</span>
+                                        <span class="price-value">EGP 10,999</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="Disbo 24-Way 3Ph SDB Package">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 6 -->
+                        <div class="product-card" data-category="mcc" data-brand="siemens" data-rating="400-630A" data-voltage="lv-400v" data-application="industrial" data-price="45000" data-name="Siemens SIVACON S4 MCC">
+                            <div class="product-badge badge-popular">Popular</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-cogs"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="6"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Siemens</div>
+                                <h3 class="product-name">SIVACON S4 Motor Control Center</h3>
+                                <p class="product-desc">Modular motor control center with TN-S earthing system, withdrawable starters, up to 630A busbar capacity.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">630A</span>
+                                    <span class="spec-tag">400V AC</span>
+                                    <span class="spec-tag">IP41</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(62 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price-value">EGP 45,000</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="SIVACON S4 Motor Control Center">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 7 -->
+                        <div class="product-card" data-category="mcc" data-brand="abb" data-rating="400-630A" data-voltage="lv-400v" data-application="industrial utility" data-price="52000" data-name="ABB MNS 3.0 Motor Control Center">
+                            <div class="product-badge badge-new">New</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-industry"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="7"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">ABB</div>
+                                <h3 class="product-name">MNS 3.0 Motor Control Center</h3>
+                                <p class="product-desc">Third-generation MNS MCC with Arc Guard system, integrated safety, IEC 61439-2 certified, Form 4 separation.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">630A</span>
+                                    <span class="spec-tag">Form 4</span>
+                                    <span class="spec-tag">Arc Guard</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span>(38 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price-value">EGP 52,000</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="MNS 3.0 Motor Control Center">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 8 -->
+                        <div class="product-card" data-category="lv-panel" data-brand="siemens" data-rating="above-800A" data-voltage="lv-400v" data-application="industrial utility" data-price="85000" data-name="Siemens SIVACON 8PT LV Switchgear">
+                            <div class="product-badge badge-popular">Best Seller</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-network-wired"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="8"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Siemens</div>
+                                <h3 class="product-name">SIVACON 8PT LV Power Distribution</h3>
+                                <p class="product-desc">Modular LV switchgear panel system up to 6300A, IEC 61439-1/2 certified, Form 4b separation, suitable for large industrial plants.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">6300A</span>
+                                    <span class="spec-tag">Form 4b</span>
+                                    <span class="spec-tag">IP54</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(74 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price-value">EGP 85,000</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="SIVACON 8PT LV Power Distribution">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 9 -->
+                        <div class="product-card" data-category="lv-panel" data-brand="abb" data-rating="above-800A" data-voltage="lv-400v" data-application="industrial utility" data-price="92000" data-name="ABB MNS iS Intelligent Switchgear">
+                            <div class="product-badge badge-new">New</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-microchip"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="9"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">ABB</div>
+                                <h3 class="product-name">MNS iS Intelligent Switchgear Panel</h3>
+                                <p class="product-desc">Smart LV switchgear with built-in IEC 61850 communication, real-time energy monitoring, remote diagnostics and arc flash protection.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">4000A</span>
+                                    <span class="spec-tag">IEC 61850</span>
+                                    <span class="spec-tag">Smart</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(41 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price-value">EGP 92,000</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="MNS iS Intelligent Switchgear Panel">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 10 -->
+                        <div class="product-card" data-category="sdb" data-brand="schneider" data-rating="100-250A" data-voltage="lv-400v" data-application="commercial" data-price="14999" data-name="Schneider Disbo 36-Way 3Ph SDB Package">
+                            <div class="product-badge badge-sale">-36%</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-cubes"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="10"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Schneider Electric</div>
+                                <h3 class="product-name">Disbo 36-Way 3Ph SDB Package</h3>
+                                <p class="product-desc">36-way sub-distribution board package with 3-phase MCBs and 3-phase isolator. Ideal for hotels and office buildings.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">3-Phase</span>
+                                    <span class="spec-tag">400V AC</span>
+                                    <span class="spec-tag">36 Ways</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span>(22 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-old">EGP 23,383</span>
+                                        <span class="price-value">EGP 14,999</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="Disbo 36-Way 3Ph SDB Package">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 11 -->
+                        <div class="product-card" data-category="mcc" data-brand="siemens" data-rating="400-630A" data-voltage="lv-400v" data-application="industrial" data-price="38000" data-name="Siemens SIRIUS Soft Starter Control Panel">
+                            <div class="product-badge badge-popular">Popular</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-sliders-h"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="11"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Siemens</div>
+                                <h3 class="product-name">SIRIUS Soft Starter Control Panel</h3>
+                                <p class="product-desc">Pre-engineered soft starter panel for pump and fan control with SIRIUS 3RW50 starters, integrated protections and IO-Link diagnostics.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">500A</span>
+                                    <span class="spec-tag">400V AC</span>
+                                    <span class="spec-tag">Soft Start</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span>(29 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price-value">EGP 38,000</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="SIRIUS Soft Starter Control Panel">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 12 -->
+                        <div class="product-card" data-category="mcb-panel" data-brand="schneider" data-rating="up-to-63A" data-voltage="lv-400v" data-application="residential" data-price="2610" data-name="Schneider Easy9 Consumer Unit 36-Way">
+                            <div class="product-badge badge-sale">-41%</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-home"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="12"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Schneider Electric</div>
+                                <h3 class="product-name">Easy9 Consumer Unit — 36 Way</h3>
+                                <p class="product-desc">Residential consumer unit with 36 ways, 125A main isolator, DIN rail mount MCBs, suitable for villas and large apartments.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">125A</span>
+                                    <span class="spec-tag">230V AC</span>
+                                    <span class="spec-tag">36 Ways</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span>(55 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-old">EGP 4,423</span>
+                                        <span class="price-value">EGP 2,610</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="Easy9 Consumer Unit — 36 Way">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 13 -->
+                        <div class="product-card" data-category="lv-panel" data-brand="abb" data-rating="100-250A" data-voltage="lv-400v" data-application="commercial" data-price="18500" data-name="ABB Mistral65 Enclosure Panel">
+                            <div class="product-badge badge-new">New</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-box"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="13"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">ABB</div>
+                                <h3 class="product-name">Mistral65 IP65 Enclosure Panel</h3>
+                                <p class="product-desc">Outdoor IP65 waterproof enclosure panel with 250A distribution capability, suitable for rooftop, pump rooms and outdoor installations.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">250A</span>
+                                    <span class="spec-tag">IP65</span>
+                                    <span class="spec-tag">Outdoor</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    <span>(17 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price-value">EGP 18,500</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="Mistral65 IP65 Enclosure Panel">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 14 -->
+                        <div class="product-card" data-category="mdb" data-brand="siemens" data-rating="100-250A" data-voltage="lv-400v" data-application="industrial commercial" data-price="22000" data-name="Siemens 8GK ALPHA Distribution Board">
+                            <div class="product-badge badge-popular">Best Seller</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-broadcast-tower"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="14"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Siemens</div>
+                                <h3 class="product-name">8GK ALPHA Distribution Board</h3>
+                                <p class="product-desc">ALPHA distribution board with 3-phase busbar, 250A main switch, 48 module capacity, IEC 60439-3 certified for industrial use.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">250A</span>
+                                    <span class="spec-tag">3-Phase</span>
+                                    <span class="spec-tag">48 Modules</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(83 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price-value">EGP 22,000</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="8GK ALPHA Distribution Board">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 15 -->
+                        <div class="product-card" data-category="mcb-panel" data-brand="abb" data-rating="up-to-63A" data-voltage="lv-400v" data-application="residential commercial" data-price="3800" data-name="ABB MISTRAL41 Flush Consumer Unit">
+                            <div class="product-badge badge-sale">-20%</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-plug"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="15"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">ABB</div>
+                                <h3 class="product-name">MISTRAL41F Flush Consumer Unit</h3>
+                                <p class="product-desc">Flush-mount consumer unit with transparent door, DIN rail, 24 module capacity, 63A incomer. Clean design for residential applications.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">63A</span>
+                                    <span class="spec-tag">230V AC</span>
+                                    <span class="spec-tag">24 Modules</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                    <span>(33 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-old">EGP 4,750</span>
+                                        <span class="price-value">EGP 3,800</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="MISTRAL41F Flush Consumer Unit">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 16 -->
+                        <div class="product-card" data-category="sdb" data-brand="siemens" data-rating="100-250A" data-voltage="mv-11kv" data-application="utility industrial" data-price="120000" data-name="Siemens SIVACON 8BT MV Panel">
+                            <div class="product-badge badge-popular">Enterprise</div>
+                            <div class="product-image">
+                                <div class="product-icon"><i class="fas fa-charging-station"></i></div>
+                                <div class="product-overlay">
+                                    <button class="overlay-btn quick-view-btn" data-product="16"><i class="fas fa-eye"></i> Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-brand">Siemens</div>
+                                <h3 class="product-name">SIVACON 8BT Medium Voltage Panel</h3>
+                                <p class="product-desc">Air-insulated medium voltage switchgear for 11kV systems, with vacuum circuit breaker, SCADA-ready, suitable for substations and utility.</p>
+                                <div class="product-specs">
+                                    <span class="spec-tag">11kV</span>
+                                    <span class="spec-tag">VCB</span>
+                                    <span class="spec-tag">SCADA</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    <span>(91 reviews)</span>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="product-price">
+                                        <span class="price-label">Starting from</span>
+                                        <span class="price-value">EGP 120,000</span>
+                                    </div>
+                                    <button class="add-to-quote-btn" data-product="SIVACON 8BT Medium Voltage Panel">
+                                        <i class="fas fa-plus"></i> Add to Quote
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><!-- end products-grid -->
+
+                    <!-- No Results Message -->
+                    <div class="no-results" id="noResults" style="display:none;">
+                        <i class="fas fa-search"></i>
+                        <h3>No products found</h3>
+                        <p>Try adjusting your search terms or filters.</p>
+                        <button id="resetSearch" class="btn btn-secondary">Reset Filters</button>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination" id="pagination">
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <span class="page-dots">...</span>
+                        <button class="page-btn">8</button>
+                        <button class="page-btn next-btn">Next <i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div><!-- end products-content -->
+            </div><!-- end products-layout -->
+        </div>
+    </section>
+
+    <!-- Quote Cart Panel (slide-in) -->
+    <div class="quote-cart" id="quoteCart">
+        <div class="quote-cart-header">
+            <h3><i class="fas fa-file-invoice"></i> Quote List</h3>
+            <span class="quote-count" id="quoteCount">0</span>
+            <button class="close-cart" id="closeCart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="quote-cart-items" id="quoteItems">
+            <div class="quote-empty" id="quoteEmpty">
+                <i class="fas fa-clipboard-list"></i>
+                <p>No items added yet.<br>Click "Add to Quote" on any product.</p>
+            </div>
+        </div>
+        <div class="quote-cart-footer" id="quoteFooter" style="display:none;">
+            <a href="#contact" class="btn btn-primary" id="sendQuoteBtn" onclick="document.getElementById('quoteCart').classList.remove('open')">
+                <i class="fas fa-paper-plane"></i> Send Quote Request
+            </a>
+            <button class="clear-quote-btn" id="clearQuote">Clear All</button>
+        </div>
+    </div>
+    <!-- Quote Cart Overlay -->
+    <div class="quote-overlay" id="quoteOverlay"></div>
+
+    <!-- Quote Cart Toggle Button -->
+    <button class="quote-fab" id="quoteToggle" title="Quote List">
+        <i class="fas fa-clipboard-list"></i>
+        <span class="quote-fab-count" id="quoteFabCount" style="display:none;">0</span>
+    </button>
+
+    <!-- Quick View Modal -->
+    <div class="quick-view-modal" id="quickViewModal">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            <div class="modal-body" id="modalBody">
+                <!-- filled by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Panel Anatomy Section -->
+    <section id="panel-anatomy" class="panel-anatomy-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Inside a Distribution Panel</h2>
+                <div class="header-line"></div>
+                <p>Hover or tap each numbered component to explore what's inside</p>
+            </div>
+
+            <div class="anatomy-layout">
+                <!-- SVG Panel Diagram + Hotspots -->
+                <div class="anatomy-diagram-wrap">
+                    <div class="panel-svg-container" id="panelSvgContainer">
+                        <!-- Main panel SVG drawing -->
+                        <svg class="panel-anatomy-svg" viewBox="0 0 420 560" xmlns="http://www.w3.org/2000/svg" id="panelAnatomySvg">
+                            <defs>
+                                <linearGradient id="panelBodyGrad" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#1a2a40"/>
+                                    <stop offset="100%" stop-color="#0d1a2a"/>
+                                </linearGradient>
+                                <linearGradient id="doorGrad" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#1e3048"/>
+                                    <stop offset="100%" stop-color="#142235"/>
+                                </linearGradient>
+                                <filter id="innerShadow">
+                                    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.5)"/>
+                                </filter>
+                                <filter id="glowBlue">
+                                    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+                                    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                                <filter id="glowCyan">
+                                    <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                                    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                                </filter>
+                                <marker id="arrowCyan" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                                    <path d="M0,0 L0,6 L6,3 z" fill="#00d4ff" opacity="0.6"/>
+                                </marker>
+                            </defs>
+
+                            <!-- === PANEL ENCLOSURE === -->
+                            <!-- Outer metallic border -->
+                            <rect x="18" y="18" width="384" height="524" rx="8" fill="#0e1e30" stroke="#2a4a6a" stroke-width="4"/>
+                            <!-- Inner panel body -->
+                            <rect x="26" y="26" width="368" height="508" rx="6" fill="url(#panelBodyGrad)" stroke="#1a3550" stroke-width="1.5"/>
+                            <!-- Top mounting rail indent -->
+                            <rect x="26" y="26" width="368" height="22" rx="6" fill="#0a1520" stroke="none"/>
+                            <text x="210" y="41" text-anchor="middle" fill="#00d4ff" font-size="9" font-family="monospace" letter-spacing="2" opacity="0.7">DISTRIBUTION BOARD — 400V AC TPN</text>
+
+                            <!-- === CABLE ENTRY GLAND PLATE (bottom) === -->
+                            <!-- Part id: part-cable -->
+                            <rect id="part-cable" class="part-highlight" x="60" y="500" width="300" height="20" rx="3" fill="#0d2035" stroke="#1a3a55" stroke-width="1.5"/>
+                            <rect x="90"  y="504" width="18" height="12" rx="9" fill="#0a1520" stroke="#2a5070" stroke-width="1.2"/>
+                            <rect x="120" y="504" width="18" height="12" rx="9" fill="#0a1520" stroke="#2a5070" stroke-width="1.2"/>
+                            <rect x="155" y="504" width="28" height="12" rx="9" fill="#0a1520" stroke="#2a5070" stroke-width="1.2"/>
+                            <rect x="200" y="504" width="28" height="12" rx="9" fill="#0a1520" stroke="#2a5070" stroke-width="1.2"/>
+                            <rect x="245" y="504" width="18" height="12" rx="9" fill="#0a1520" stroke="#2a5070" stroke-width="1.2"/>
+                            <rect x="275" y="504" width="18" height="12" rx="9" fill="#0a1520" stroke="#2a5070" stroke-width="1.2"/>
+                            <rect x="305" y="504" width="18" height="12" rx="9" fill="#0a1520" stroke="#2a5070" stroke-width="1.2"/>
+                            <text x="210" y="527" text-anchor="middle" fill="#2a5070" font-size="8" font-family="monospace">CABLE ENTRY GLAND PLATE</text>
+
+                            <!-- === TOP DIN RAIL === -->
+                            <!-- Part id: part-dinrail1 -->
+                            <rect id="part-dinrail1" class="part-highlight" x="40" y="56" width="340" height="7" rx="3.5" fill="#1a3550" stroke="#2a5580" stroke-width="1"/>
+                            <line x1="40" y1="60" x2="380" y2="60" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+
+                            <!-- === INCOMING SUPPLY CABLES === -->
+                            <!-- 3-phase cables from gland to MCCB -->
+                            <line x1="120" y1="500" x2="120" y2="130" stroke="#cc3333" stroke-width="3" opacity="0.5"/>
+                            <line x1="155" y1="500" x2="155" y2="130" stroke="#cc8800" stroke-width="3" opacity="0.5"/>
+                            <line x1="200" y1="500" x2="200" y2="130" stroke="#226622" stroke-width="3" opacity="0.5"/>
+                            <line x1="245" y1="500" x2="245" y2="450" stroke="#111" stroke-width="3" opacity="0.6"/>
+                            <line x1="280" y1="500" x2="280" y2="450" stroke="#446644" stroke-width="4" opacity="0.6"/>
+
+                            <!-- === MAIN ISOLATOR / INCOMER MCCB === -->
+                            <!-- Part id: part-mccb -->
+                            <rect id="part-mccb" class="part-highlight" x="120" y="70" width="180" height="58" rx="6" fill="#0d2035" stroke="#2a6090" stroke-width="2"/>
+                            <rect x="130" y="78" width="160" height="42" rx="4" fill="#091828" stroke="#1a4060" stroke-width="1"/>
+                            <!-- Breaker handle -->
+                            <rect x="195" y="76" width="30" height="16" rx="3" fill="#00d4ff" opacity="0.8" filter="url(#glowBlue)"/>
+                            <line x1="210" y1="76" x2="210" y2="92" stroke="#0a0e27" stroke-width="2"/>
+                            <!-- Poles -->
+                            <circle cx="150" cy="100" r="7" fill="#0a1520" stroke="#00d4ff" stroke-width="1.5" filter="url(#glowCyan)"/>
+                            <circle cx="175" cy="100" r="7" fill="#0a1520" stroke="#00d4ff" stroke-width="1.5" filter="url(#glowCyan)"/>
+                            <circle cx="200" cy="100" r="7" fill="#0a1520" stroke="#00d4ff" stroke-width="1.5" filter="url(#glowCyan)"/>
+                            <circle cx="225" cy="100" r="7" fill="#0a1520" stroke="#00d4ff" stroke-width="1.5" filter="url(#glowCyan)"/>
+                            <text x="270" y="103" fill="#00d4ff" font-size="7" font-family="monospace" text-anchor="middle">MCCB</text>
+                            <text x="270" y="114" fill="#7090a0" font-size="7" font-family="monospace" text-anchor="middle">125A 4P</text>
+
+                            <!-- === 3-PHASE BUSBAR SYSTEM === -->
+                            <!-- Part id: part-busbar -->
+                            <rect id="part-busbar" class="part-highlight" x="35" y="142" width="350" height="14" rx="3" fill="#0d2a40" stroke="#1a5080" stroke-width="1.5" filter="url(#glowBlue)"/>
+                            <!-- L1 busbar -->
+                            <rect x="35"  y="142" width="350" height="4" rx="2" fill="#cc3333" opacity="0.6"/>
+                            <!-- L2 busbar -->
+                            <rect x="35"  y="148" width="350" height="4" rx="2" fill="#cc8800" opacity="0.6"/>
+                            <!-- L3 busbar -->
+                            <rect x="35"  y="154" width="350" height="4" rx="2" fill="#226622" opacity="0.6"/>
+                            <text x="390" y="152" text-anchor="start" fill="#1a5080" font-size="7" font-family="monospace">BUS</text>
+
+                            <!-- Animated flow on busbar -->
+                            <rect x="35" y="143" width="350" height="12" rx="3" fill="none" stroke="#00d4ff" stroke-width="0.5" stroke-dasharray="12 8" opacity="0.4">
+                                <animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2s" repeatCount="indefinite"/>
+                            </rect>
+
+                            <!-- === RCCB / RCD UNIT === -->
+                            <!-- Part id: part-rccb -->
+                            <rect id="part-rccb" class="part-highlight" x="38" y="170" width="70" height="50" rx="5" fill="#0d2035" stroke="#2a5580" stroke-width="1.5"/>
+                            <rect x="44" y="177" width="58" height="36" rx="3" fill="#091520" stroke="#1a3a55" stroke-width="1"/>
+                            <rect x="55" y="173" width="20" height="12" rx="3" fill="#7c3aed" opacity="0.8" filter="url(#glowBlue)"/>
+                            <line x1="65" y1="173" x2="65" y2="185" stroke="#0a0e27" stroke-width="1.5"/>
+                            <text x="73" y="200" fill="#a78bfa" font-size="7" font-family="monospace" text-anchor="middle">RCCB</text>
+                            <text x="73" y="210" fill="#506080" font-size="6" font-family="monospace" text-anchor="middle">63A 30mA</text>
+
+                            <!-- === MCB ROWS === -->
+                            <!-- Row 1 of MCBs — Part id: part-mcb1 -->
+                            <g id="part-mcb1" class="part-highlight">
+                                <rect x="118" y="170" width="254" height="50" rx="4" fill="rgba(0,20,40,0.4)" stroke="#1a3550" stroke-width="1"/>
+                                <!-- 6 MCBs -->
+                                <rect x="122" y="174" width="34" height="42" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="130" y="172" width="18" height="10" rx="2" fill="#00d4ff" opacity="0.75"/>
+                                <circle cx="139" cy="205" r="5" fill="#0a1520" stroke="#00d4ff" stroke-width="1.2"/>
+                                <text x="139" y="223" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">20A</text>
+
+                                <rect x="160" y="174" width="34" height="42" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="168" y="172" width="18" height="10" rx="2" fill="#00d4ff" opacity="0.75"/>
+                                <circle cx="177" cy="205" r="5" fill="#0a1520" stroke="#00d4ff" stroke-width="1.2"/>
+                                <text x="177" y="223" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">20A</text>
+
+                                <rect x="198" y="174" width="34" height="42" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="206" y="172" width="18" height="10" rx="2" fill="#00d4ff" opacity="0.75"/>
+                                <circle cx="215" cy="205" r="5" fill="#0a1520" stroke="#00d4ff" stroke-width="1.2"/>
+                                <text x="215" y="223" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">32A</text>
+
+                                <rect x="236" y="174" width="34" height="42" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="244" y="172" width="18" height="10" rx="2" fill="#00d4ff" opacity="0.75"/>
+                                <circle cx="253" cy="205" r="5" fill="#0a1520" stroke="#00d4ff" stroke-width="1.2"/>
+                                <text x="253" y="223" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">32A</text>
+
+                                <rect x="274" y="174" width="34" height="42" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="282" y="172" width="18" height="10" rx="2" fill="#fbbf24" opacity="0.75"/>
+                                <circle cx="291" cy="205" r="5" fill="#0a1520" stroke="#fbbf24" stroke-width="1.2"/>
+                                <text x="291" y="223" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">40A</text>
+
+                                <rect x="312" y="174" width="34" height="42" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="320" y="172" width="18" height="10" rx="2" fill="#fbbf24" opacity="0.75"/>
+                                <circle cx="329" cy="205" r="5" fill="#0a1520" stroke="#fbbf24" stroke-width="1.2"/>
+                                <text x="329" y="223" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">40A</text>
+                            </g>
+
+                            <!-- === MID DIN RAIL === -->
+                            <rect x="40" y="230" width="340" height="7" rx="3.5" fill="#1a3550" stroke="#2a5580" stroke-width="1"/>
+                            <line x1="40" y1="233" x2="380" y2="233" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+
+                            <!-- === SECOND ROW MCBs — Part id: part-mcb2 === -->
+                            <g id="part-mcb2" class="part-highlight">
+                                <rect x="38" y="247" width="344" height="52" rx="4" fill="rgba(0,20,40,0.4)" stroke="#1a3550" stroke-width="1"/>
+                                <!-- 8 smaller MCBs -->
+                                <rect x="42"  y="251" width="32" height="44" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="49"  y="249" width="18" height="9" rx="2" fill="#00d4ff" opacity="0.65"/>
+                                <text x="58" y="304" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">16A</text>
+
+                                <rect x="78"  y="251" width="32" height="44" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="85"  y="249" width="18" height="9" rx="2" fill="#00d4ff" opacity="0.65"/>
+                                <text x="94" y="304" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">16A</text>
+
+                                <rect x="114" y="251" width="32" height="44" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="121" y="249" width="18" height="9" rx="2" fill="#00d4ff" opacity="0.65"/>
+                                <text x="130" y="304" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">16A</text>
+
+                                <rect x="150" y="251" width="32" height="44" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="157" y="249" width="18" height="9" rx="2" fill="#00d4ff" opacity="0.65"/>
+                                <text x="166" y="304" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">20A</text>
+
+                                <rect x="186" y="251" width="32" height="44" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="193" y="249" width="18" height="9" rx="2" fill="#00d4ff" opacity="0.65"/>
+                                <text x="202" y="304" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">20A</text>
+
+                                <rect x="222" y="251" width="32" height="44" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="229" y="249" width="18" height="9" rx="2" fill="#fbbf24" opacity="0.65"/>
+                                <text x="238" y="304" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">32A</text>
+
+                                <rect x="258" y="251" width="32" height="44" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="265" y="249" width="18" height="9" rx="2" fill="#fbbf24" opacity="0.65"/>
+                                <text x="274" y="304" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">32A</text>
+
+                                <rect x="294" y="251" width="32" height="44" rx="3" fill="#0a1828" stroke="#1a4060" stroke-width="1.2"/>
+                                <rect x="301" y="249" width="18" height="9" rx="2" fill="#34d399" opacity="0.65"/>
+                                <text x="310" y="304" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">SPA</text>
+
+                                <rect x="330" y="251" width="48" height="44" rx="3" fill="#0a1828" stroke="#a78bfa" stroke-width="1.2"/>
+                                <rect x="338" y="249" width="32" height="9" rx="2" fill="#7c3aed" opacity="0.75"/>
+                                <text x="354" y="275" fill="#a78bfa" font-size="7" text-anchor="middle" font-family="monospace">RCCB</text>
+                                <text x="354" y="286" fill="#a78bfa" font-size="6" text-anchor="middle" font-family="monospace">2P</text>
+                                <text x="354" y="304" fill="#607080" font-size="6" text-anchor="middle" font-family="monospace">30mA</text>
+                            </g>
+
+                            <!-- === NEUTRAL BAR === -->
+                            <!-- Part id: part-neutral -->
+                            <rect id="part-neutral" class="part-highlight" x="38" y="318" width="230" height="22" rx="4" fill="#0a2030" stroke="#1a4060" stroke-width="1.5"/>
+                            <rect x="44" y="322" width="218" height="14" rx="3" fill="#0d2a45" stroke="#1f5070" stroke-width="1"/>
+                            <!-- Neutral terminals -->
+                            <rect x="50"  y="324" width="10" height="10" rx="2" fill="#1a4060" stroke="#00a0c0" stroke-width="1"/>
+                            <rect x="66"  y="324" width="10" height="10" rx="2" fill="#1a4060" stroke="#00a0c0" stroke-width="1"/>
+                            <rect x="82"  y="324" width="10" height="10" rx="2" fill="#1a4060" stroke="#00a0c0" stroke-width="1"/>
+                            <rect x="98"  y="324" width="10" height="10" rx="2" fill="#1a4060" stroke="#00a0c0" stroke-width="1"/>
+                            <rect x="114" y="324" width="10" height="10" rx="2" fill="#1a4060" stroke="#00a0c0" stroke-width="1"/>
+                            <rect x="130" y="324" width="10" height="10" rx="2" fill="#1a4060" stroke="#00a0c0" stroke-width="1"/>
+                            <rect x="146" y="324" width="10" height="10" rx="2" fill="#1a4060" stroke="#00a0c0" stroke-width="1"/>
+                            <rect x="162" y="324" width="10" height="10" rx="2" fill="#1a4060" stroke="#00a0c0" stroke-width="1"/>
+                            <text x="155" y="352" fill="#00a0c0" font-size="8" font-family="monospace" text-anchor="middle">NEUTRAL BAR (N)</text>
+
+                            <!-- === EARTH BAR === -->
+                            <!-- Part id: part-earth -->
+                            <rect id="part-earth" class="part-highlight" x="280" y="318" width="100" height="22" rx="4" fill="#0a2518" stroke="#1a5030" stroke-width="1.5"/>
+                            <rect x="286" y="322" width="88" height="14" rx="3" fill="#0d3020" stroke="#1f6040" stroke-width="1"/>
+                            <rect x="292" y="324" width="10" height="10" rx="2" fill="#1a4025" stroke="#00c060" stroke-width="1"/>
+                            <rect x="308" y="324" width="10" height="10" rx="2" fill="#1a4025" stroke="#00c060" stroke-width="1"/>
+                            <rect x="324" y="324" width="10" height="10" rx="2" fill="#1a4025" stroke="#00c060" stroke-width="1"/>
+                            <rect x="340" y="324" width="10" height="10" rx="2" fill="#1a4025" stroke="#00c060" stroke-width="1"/>
+                            <text x="330" y="352" fill="#00c060" font-size="8" font-family="monospace" text-anchor="middle">EARTH BAR (PE)</text>
+
+                            <!-- === SURGE PROTECTION DEVICE (SPD) === -->
+                            <!-- Part id: part-spd -->
+                            <rect id="part-spd" class="part-highlight" x="38" y="365" width="80" height="50" rx="5" fill="#0d2035" stroke="#2a5060" stroke-width="1.5"/>
+                            <rect x="44" y="371" width="68" height="38" rx="3" fill="#091520" stroke="#1a3a50" stroke-width="1"/>
+                            <!-- SPD symbol - lightning bolt -->
+                            <polygon points="85,375 72,392 80,392 67,408 82,390 74,390" fill="#fbbf24" opacity="0.8" filter="url(#glowBlue)"/>
+                            <text x="63" y="424" fill="#fbbf24" font-size="7" font-family="monospace" text-anchor="middle">SPD</text>
+                            <text x="63" y="432" fill="#506070" font-size="6" font-family="monospace" text-anchor="middle">SURGE</text>
+
+                            <!-- === BOTTOM DIN RAIL === -->
+                            <!-- Part id: part-dinrail2 -->
+                            <rect id="part-dinrail2" class="part-highlight" x="40" y="358" width="340" height="7" rx="3.5" fill="#1a3550" stroke="#2a5580" stroke-width="1"/>
+
+                            <!-- === CABLE DUCT / TRUNKING === -->
+                            <!-- Part id: part-duct -->
+                            <rect id="part-duct" class="part-highlight" x="390" y="56" width="14" height="484" rx="4" fill="#0d2035" stroke="#1a4060" stroke-width="1.5"/>
+                            <!-- Duct texture lines -->
+                            <line x1="392" y1="70"  x2="402" y2="70"  stroke="#1a3550" stroke-width="0.5"/>
+                            <line x1="392" y1="85"  x2="402" y2="85"  stroke="#1a3550" stroke-width="0.5"/>
+                            <line x1="392" y1="100" x2="402" y2="100" stroke="#1a3550" stroke-width="0.5"/>
+                            <line x1="392" y1="115" x2="402" y2="115" stroke="#1a3550" stroke-width="0.5"/>
+                            <line x1="392" y1="130" x2="402" y2="130" stroke="#1a3550" stroke-width="0.5"/>
+                            <line x1="392" y1="145" x2="402" y2="145" stroke="#1a3550" stroke-width="0.5"/>
+                            <text x="397" y="308" fill="#1a4060" font-size="7" font-family="monospace" text-anchor="middle" writing-mode="tb">CABLE TRUNKING</text>
+
+                            <!-- Decorative corner screws -->
+                            <circle cx="32"  cy="32"  r="4" fill="#0a1520" stroke="#2a4a6a" stroke-width="1.5"/>
+                            <line cx="32"  cy="32"  x1="30" y1="30" x2="34" y2="34" stroke="#2a4a6a" stroke-width="1"/>
+                            <circle cx="388" cy="32"  r="4" fill="#0a1520" stroke="#2a4a6a" stroke-width="1.5"/>
+                            <circle cx="32"  cy="536" r="4" fill="#0a1520" stroke="#2a4a6a" stroke-width="1.5"/>
+                            <circle cx="388" cy="536" r="4" fill="#0a1520" stroke="#2a4a6a" stroke-width="1.5"/>
+
+                            <!-- IEC certification mark -->
+                            <rect x="340" y="440" width="55" height="36" rx="4" fill="rgba(0,212,255,0.05)" stroke="rgba(0,212,255,0.2)" stroke-width="1"/>
+                            <text x="367" y="454" fill="#00d4ff" font-size="6.5" font-family="monospace" text-anchor="middle" opacity="0.7">IEC 61439</text>
+                            <text x="367" y="466" fill="#00d4ff" font-size="6" font-family="monospace" text-anchor="middle" opacity="0.7">CERTIFIED</text>
+                            <text x="367" y="476" fill="#7c3aed" font-size="5.5" font-family="monospace" text-anchor="middle" opacity="0.7">EMS ★ QUALITY</text>
+                        </svg>
+
+                        <!-- Hotspot overlays (positioned over SVG elements) -->
+                        <!-- 1. Main MCCB -->
+                        <div class="hotspot" id="hs-mccb" style="left:49%; top:17.5%;" data-part="part-mccb">
+                            <div class="hotspot-dot">1</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 01</div>
+                                <div class="tooltip-title">Main Incomer MCCB</div>
+                                <div class="tooltip-desc">Moulded Case Circuit Breaker — the main switch protecting the entire panel from overload and short-circuit faults.</div>
+                                <span class="tooltip-spec">125A / 4-Pole / 6kA</span>
+                            </div>
+                        </div>
+
+                        <!-- 2. 3-Phase Busbar -->
+                        <div class="hotspot flip-left" id="hs-busbar" style="left:78%; top:27%;" data-part="part-busbar">
+                            <div class="hotspot-dot">2</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 02</div>
+                                <div class="tooltip-title">3-Phase Busbar System</div>
+                                <div class="tooltip-desc">Copper busbars (L1/L2/L3) distribute power from the main incomer to all outgoing circuits. Colour coded: Red, Yellow, Blue.</div>
+                                <span class="tooltip-spec">400V AC / 3Φ + N</span>
+                            </div>
+                        </div>
+
+                        <!-- 3. RCCB -->
+                        <div class="hotspot" id="hs-rccb" style="left:16%; top:37%;" data-part="part-rccb">
+                            <div class="hotspot-dot">3</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 03</div>
+                                <div class="tooltip-title">RCCB / RCD Unit</div>
+                                <div class="tooltip-desc">Residual Current Circuit Breaker trips within 30ms on earth leakage above 30mA, providing life safety protection.</div>
+                                <span class="tooltip-spec">63A / 30mA / IΔn Type A</span>
+                            </div>
+                        </div>
+
+                        <!-- 4. MCB Row 1 -->
+                        <div class="hotspot flip-left" id="hs-mcb1" style="left:78%; top:40%;" data-part="part-mcb1">
+                            <div class="hotspot-dot">4</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 04</div>
+                                <div class="tooltip-title">MCB Row — Power Circuits</div>
+                                <div class="tooltip-desc">Miniature Circuit Breakers for AC & socket-outlet circuits. Rated 20–40A, each protects one outgoing circuit from overload.</div>
+                                <span class="tooltip-spec">20–40A / 6kA / Curve C</span>
+                            </div>
+                        </div>
+
+                        <!-- 5. MCB Row 2 -->
+                        <div class="hotspot" id="hs-mcb2" style="left:22%; top:52%;" data-part="part-mcb2">
+                            <div class="hotspot-dot">5</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 05</div>
+                                <div class="tooltip-title">MCB Row — Lighting &amp; Smalls</div>
+                                <div class="tooltip-desc">Smaller MCBs for lighting circuits, low-power equipment, and a combined RCCB for bathroom/wet-area socket circuits.</div>
+                                <span class="tooltip-spec">16–32A / 4.5kA / Resi9</span>
+                            </div>
+                        </div>
+
+                        <!-- 6. Neutral Bar -->
+                        <div class="hotspot" id="hs-neutral" style="left:36%; top:63%;" data-part="part-neutral">
+                            <div class="hotspot-dot">6</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 06</div>
+                                <div class="tooltip-title">Neutral Bar (N)</div>
+                                <div class="tooltip-desc">Insulated copper bar consolidating neutral returns from all outgoing circuits back to the incoming supply neutral.</div>
+                                <span class="tooltip-spec">Tinned Copper / Insulated</span>
+                            </div>
+                        </div>
+
+                        <!-- 7. Earth Bar -->
+                        <div class="hotspot flip-left" id="hs-earth" style="left:78%; top:63%;" data-part="part-earth">
+                            <div class="hotspot-dot">7</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 07</div>
+                                <div class="tooltip-title">Earth Bar (PE)</div>
+                                <div class="tooltip-desc">Protective Earth bar bonded directly to the metalwork. All circuit earth conductors and the panel enclosure connect here.</div>
+                                <span class="tooltip-spec">Green/Yellow / TN-S System</span>
+                            </div>
+                        </div>
+
+                        <!-- 8. SPD -->
+                        <div class="hotspot" id="hs-spd" style="left:16%; top:76%;" data-part="part-spd">
+                            <div class="hotspot-dot">8</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 08</div>
+                                <div class="tooltip-title">Surge Protection Device</div>
+                                <div class="tooltip-desc">SPD clamps transient voltage spikes from lightning or switching surges, protecting all downstream equipment.</div>
+                                <span class="tooltip-spec">Type 2 / Up ≤ 1.5kV</span>
+                            </div>
+                        </div>
+
+                        <!-- 9. Cable Trunking -->
+                        <div class="hotspot flip-left" id="hs-duct" style="left:95%; top:50%;" data-part="part-duct">
+                            <div class="hotspot-dot">9</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 09</div>
+                                <div class="tooltip-title">Cable Trunking / Duct</div>
+                                <div class="tooltip-desc">Vertical PVC or steel trunking manages and conceals wiring between components, ensuring a neat and safe installation.</div>
+                                <span class="tooltip-spec">DIN 60mm / Slotted</span>
+                            </div>
+                        </div>
+
+                        <!-- 10. Cable Entry -->
+                        <div class="hotspot" id="hs-cable" style="left:50%; top:93%;" data-part="part-cable">
+                            <div class="hotspot-dot">10</div>
+                            <div class="hotspot-tooltip">
+                                <div class="tooltip-number">Component 10</div>
+                                <div class="tooltip-title">Cable Entry Gland Plate</div>
+                                <div class="tooltip-desc">Bottom gland plate with knock-outs for cable entry. Fitted with IP-rated glands to maintain enclosure protection rating.</div>
+                                <span class="tooltip-spec">IP30–IP65 / M20–M50 Glands</span>
+                            </div>
+                        </div>
+
+                    </div><!-- end panel-svg-container -->
+                </div><!-- end anatomy-diagram-wrap -->
+
+                <!-- Right-side component list -->
+                <div class="anatomy-info">
+                    <div class="anatomy-header">
+                        <h3>Panel Components</h3>
+                        <p>Click any number — on the diagram or in this list — to highlight and learn about each component inside a standard LV distribution panel.</p>
+                    </div>
+                    <div class="anatomy-component-list" id="anatomyComponentList">
+                        <div class="anatomy-component" data-hs="hs-mccb" data-part="part-mccb">
+                            <div class="anatomy-component-num">1</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">Main Incomer MCCB</div>
+                                <div class="anatomy-component-sub">125A · 4-Pole · Moulded Case Circuit Breaker</div>
+                            </div>
+                        </div>
+                        <div class="anatomy-component" data-hs="hs-busbar" data-part="part-busbar">
+                            <div class="anatomy-component-num">2</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">3-Phase Busbar System</div>
+                                <div class="anatomy-component-sub">L1 / L2 / L3 · 400V AC · Copper</div>
+                            </div>
+                        </div>
+                        <div class="anatomy-component" data-hs="hs-rccb" data-part="part-rccb">
+                            <div class="anatomy-component-num">3</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">RCCB / RCD Unit</div>
+                                <div class="anatomy-component-sub">63A · 30mA · Earth Leakage Protection</div>
+                            </div>
+                        </div>
+                        <div class="anatomy-component" data-hs="hs-mcb1" data-part="part-mcb1">
+                            <div class="anatomy-component-num">4</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">MCB Row — Power Circuits</div>
+                                <div class="anatomy-component-sub">20–40A · 6kA · AC Power &amp; Socket Outlets</div>
+                            </div>
+                        </div>
+                        <div class="anatomy-component" data-hs="hs-mcb2" data-part="part-mcb2">
+                            <div class="anatomy-component-num">5</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">MCB Row — Lighting &amp; Smalls</div>
+                                <div class="anatomy-component-sub">16–32A · 4.5kA · Lighting &amp; Low-Power</div>
+                            </div>
+                        </div>
+                        <div class="anatomy-component" data-hs="hs-neutral" data-part="part-neutral">
+                            <div class="anatomy-component-num">6</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">Neutral Bar (N)</div>
+                                <div class="anatomy-component-sub">Tinned Copper · Insulated · Multi-terminal</div>
+                            </div>
+                        </div>
+                        <div class="anatomy-component" data-hs="hs-earth" data-part="part-earth">
+                            <div class="anatomy-component-num">7</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">Earth Bar (PE)</div>
+                                <div class="anatomy-component-sub">Green/Yellow · TN-S · Bonded to Enclosure</div>
+                            </div>
+                        </div>
+                        <div class="anatomy-component" data-hs="hs-spd" data-part="part-spd">
+                            <div class="anatomy-component-num">8</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">Surge Protection Device</div>
+                                <div class="anatomy-component-sub">Type 2 SPD · Lightning &amp; Transient Protection</div>
+                            </div>
+                        </div>
+                        <div class="anatomy-component" data-hs="hs-duct" data-part="part-duct">
+                            <div class="anatomy-component-num">9</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">Cable Trunking / Duct</div>
+                                <div class="anatomy-component-sub">60mm DIN · Vertical Cable Management</div>
+                            </div>
+                        </div>
+                        <div class="anatomy-component" data-hs="hs-cable" data-part="part-cable">
+                            <div class="anatomy-component-num">10</div>
+                            <div class="anatomy-component-text">
+                                <div class="anatomy-component-name">Cable Entry Gland Plate</div>
+                                <div class="anatomy-component-sub">IP30–IP65 · M20–M50 Cable Glands</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <div class="header-line"></div>
+                <p>Everything you need to know about EMS and our services</p>
+            </div>
+            <div class="faq-layout">
+                <div class="faq-list" id="faqList">
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>What services does EMS provide?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>EMS provides full-scope MEP (Mechanical, Electrical & Plumbing) contracting and automation services including: LV/MV electrical distribution, HVAC &amp; chilled water systems, fire alarm &amp; suppression, CCTV &amp; access control, BMS, PLC/SCADA automation, solar PV systems, and our proprietary ZETA smart building platform. We cover design, supply, installation, commissioning, and maintenance.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Do you work on projects outside Egypt and UAE?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. EMS was founded in the UAE in 2012 and expanded to Egypt in 2016. We actively work across the GCC region and North Africa, and have completed projects in Saudi Arabia and Kuwait. For international inquiries, contact our UAE office directly at +971563750916.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>What is the ZETA Platform and how is it licensed?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>ZETA is EMS's proprietary AI-powered smart automation platform that integrates BMS, IoT sensors, SCADA, and energy management into a single dashboard. It is available as a SaaS subscription or as a licensed on-premise deployment. Pricing is project-specific — contact us for a scoping call and we will provide a tailored proposal within 5 business days.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>How do I get a quote for my MEP project?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>The quickest way is to fill out our contact form below with your project type, location, and approximate scope. Alternatively, call or WhatsApp our nearest office directly. For product quotes, use the "Add to Quote" feature on our Products page to build a list, then click "Send Quote Request" — it will pre-fill the contact form with your selected items.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Are your electrical panels IEC certified?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>All distribution boards and switchgear we supply and manufacture comply with IEC 61439 (LV switchgear assemblies). Our panels are tested to Form 1–4b separation depending on application. We supply OEM products from Schneider Electric, Siemens, and ABB — all carrying full factory certifications — as well as custom-engineered panels built to your project specification.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>What is the typical timeline for a project?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Timelines vary by scope. A standard apartment electrical fit-out takes 2–4 weeks. A commercial BMS installation runs 4–12 weeks. Large industrial MEP packages (SCADA + MV/LV + HVAC) typically span 3–12 months. We use Primavera P6 for detailed project scheduling and provide a full programme with every proposal.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Do you offer after-sales support and maintenance contracts?</span>
+                            <i class="fas fa-plus faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. We offer Annual Maintenance Contracts (AMC) covering preventive maintenance, emergency callout, spare parts supply, and remote ZETA Platform support. Our support team is available 24/7 for critical systems. AMC pricing starts from a fixed percentage of the installation value, discussed at project handover.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="faq-sidebar">
+                    <div class="faq-cta-card">
+                        <i class="fas fa-headset"></i>
+                        <h3>Still have questions?</h3>
+                        <p>Our engineering team is happy to discuss your project requirements in detail.</p>
+                        <a href="#contact" class="btn btn-primary">Contact Us</a>
+                    </div>
+                    <div class="faq-stats">
+                        <div class="faq-stat">
+                            <span class="faq-stat-num">50+</span>
+                            <span class="faq-stat-label">Projects Completed</span>
+                        </div>
+                        <div class="faq-stat">
+                            <span class="faq-stat-num">12+</span>
+                            <span class="faq-stat-label">Years Experience</span>
+                        </div>
+                        <div class="faq-stat">
+                            <span class="faq-stat-num">3</span>
+                            <span class="faq-stat-label">Countries Active</span>
+                        </div>
+                        <div class="faq-stat">
+                            <span class="faq-stat-num">24/7</span>
+                            <span class="faq-stat-label">Support Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="header-line"></div>
+                <p>Contact our team for your MEP & Automation needs</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Egypt Office</h3>
+                            <p>Villa 17, Bayram El-Tunsi St., El Nargis 2</p>
+                            <p>5th Settlement, New Cairo</p>
+                            <p><strong>Tel:</strong> +226418271</p>
+                            <p><strong>Mob:</strong> +201202542095</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>UAE Office</h3>
+                            <p>Mourad Building, Fire Roundabout</p>
+                            <p>Sharjah, United Arab Emirates</p>
+                            <p><strong>Tel:</strong> +97165690908</p>
+                            <p><strong>Mob:</strong> +971563750916</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>info@ems-me.com</p>
+                            <p>General inquiries and support</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+                        <input type="hidden" name="_subject" value="New enquiry from EMS Website">
+                        <input type="text" name="_gotcha" style="display:none">
+                        <div class="form-group">
+                            <label for="cf-name">Full Name</label>
+                            <input type="text" id="cf-name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cf-email">Email Address</label>
+                            <input type="email" id="cf-email" name="email" placeholder="you@company.com" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="cf-phone">Phone / WhatsApp</label>
+                                <input type="tel" id="cf-phone" name="phone" placeholder="+20 1XX XXX XXXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="cf-service">Service Needed</label>
+                                <select id="cf-service" name="service">
+                                    <option value="">Select a service...</option>
+                                    <option>Electrical Systems</option>
+                                    <option>BMS / Automation</option>
+                                    <option>ZETA Platform</option>
+                                    <option>Fire &amp; Safety</option>
+                                    <option>Solar Energy</option>
+                                    <option>Products / Supply</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="cf-message">Message</label>
+                            <textarea id="cf-message" name="message" placeholder="Describe your project or enquiry..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary glow-btn" id="contactSubmitBtn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div class="form-success" id="formSuccess">
+                            <i class="fas fa-check-circle"></i>
+                            Message sent! We'll get back to you within 24 hours.
+                        </div>
+                        <div class="form-error" id="formError">
+                            <i class="fas fa-exclamation-circle"></i>
+                            Something went wrong. Please email us directly at info@ems-me.com
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+
+                    <!-- Brand column -->
+                    <div class="footer-col footer-brand">
+                        <img src="EMS.png" alt="EMS Logo" class="footer-logo">
+                        <p>Engineering Management Systems — leading MEP contracting &amp; smart automation solutions across UAE, Egypt, and the wider Middle East since 2012.</p>
+                        <div class="footer-socials">
+                            <a href="#" aria-label="LinkedIn"  class="footer-social"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Facebook"  class="footer-social"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram" class="footer-social"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"   class="footer-social"><i class="fab fa-youtube"></i></a>
+                            <a href="https://wa.me/201202542095" aria-label="WhatsApp" class="footer-social footer-social-wa"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="#zeta"><i class="fas fa-chevron-right"></i> ZETA Platform</a></li>
+                            <li><a href="#products"><i class="fas fa-chevron-right"></i> Products</a></li>
+                            <li><a href="#panel-anatomy"><i class="fas fa-chevron-right"></i> Panel Guide</a></li>
+                            <li><a href="#case-studies"><i class="fas fa-chevron-right"></i> Case Studies</a></li>
+                            <li><a href="#team"><i class="fas fa-chevron-right"></i> Our Team</a></li>
+                            <li><a href="#faq"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="footer-col">
+                        <h4>Our Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Electrical Systems</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Mechanical &amp; HVAC</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> BMS Automation</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Fire Fighting</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Light Current Systems</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Solar Energy</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Control Systems</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Project Management</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="footer-col">
+                        <h4>Contact Us</h4>
+                        <div class="footer-contact-list">
+                            <div class="footer-contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Egypt</strong>
+                                    <span>Villa 17, Bayram El-Tunsi St., 5th Settlement, New Cairo</span>
+                                    <span>+20 2 26418271</span>
+                                </div>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>UAE</strong>
+                                    <span>Mourad Building, Fire Roundabout, Sharjah</span>
+                                    <span>+971 6 5690908</span>
+                                </div>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <a href="mailto:info@ems-me.com">info@ems-me.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Siemens partner badge -->
+                        <div class="footer-partner-badge">
+                            <img src="SIEMENS.PNG" alt="Siemens Partner" class="footer-partner-img">
+                            <span>Certified Partner</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-inner">
+                    <p>&copy; <span id="footerYear"></span> Engineering Management Systems (EMS). All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <span>·</span>
+                        <a href="#">Terms of Use</a>
+                        <span>·</span>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

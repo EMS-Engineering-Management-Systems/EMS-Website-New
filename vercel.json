@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd ems-react && npm install && npm run build",
+  "outputDirectory": "ems-react/dist",
+  "installCommand": "echo 'Dependencies installed in buildCommand'",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
